@@ -11,7 +11,7 @@ body{
 	overflow: auto;
 }
 .col{
-	margin: 2%;
+	margin: 5%;
 	transition: 2s;
 }
 .col:hover{
@@ -24,3 +24,33 @@ body{
 .col:focus{
 			background-color: #ffff00;
 		}
+.style{
+	/*display:inline-block;*/
+	display: block;
+	font-weight:bold;
+	color:#ffffff;
+	background:#0006CC ;
+	width:200px;
+	text-align: center;
+	padding:2px;
+	text-decoration:none ;
+	margin:0 auto;
+	margin-top:10px; 
+}
+.point{
+	/*display:inline-block;*/
+	display: block;
+	font-weight:bold;
+	color:#ffffff;
+	background:green;
+	width:200px;
+	text-align: center;
+	padding:2px;
+	text-decoration:none ;
+	margin:0 auto;
+	margin-top:10px; 
+}
+.jumbotron i{
+	display: block;
+	text-align: center;
+}
