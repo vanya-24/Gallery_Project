@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://kit.fontawesome.com/5a43e0175c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="externalstylesheet.css">
 <style>
 input:focus {
   background-color: #ccffff;
@@ -11,14 +13,51 @@ form{
 	margin:5%;
 	padding: 8px;
 }
+body{
+	background: white;
+}
 </style>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+       <a class="navbar-brand" href="mygallery.html" aria-label="home">
+  	<i class="fas fa-home fa-2x"></i><br>
+  	Back to Home<span class="sr-only">(current)</span>
+  </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="fas fa-info-circle fa-2x"></i><br>About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="page1.html"><i class="fas fa-profile fa-2x"></i><br>My Profile</a>
+          <a class="dropdown-item" href="page2.html">More..</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    	<li>
+    		<a class="style" href="page3.html"><i class="fas fa-user"></i><br>Log in</a>
+    	</li>
+    	<br>
+    	<li>
+    		<a class="point" href="page4.html"><i class="fas fa-user-plus"></i><br>Sign up</a>
+    	</li>
+    </ul>
+
+  </div>
+</nav>
 
 <form>
   USERNAME: <input type="text" name="username"><br>
   PASSWORD: <input type="text" name="password"><br>
   <strong><button type="button" class="btn btn-success">SUBMIT</button></strong>
 </form>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

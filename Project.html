@@ -2,27 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>MY PROFILE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script src="https://kit.fontawesome.com/5a43e0175c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="externalstylesheet.css">
-	<style>
-		p{
-			box-sizing: border-box;
-			border-color: 2px solid black;
-			background: #ccffcc;
-			font-family: sans-serif;
+	<link rel="stylesheet" href="externalstylesheet.css">
+	<style type="text/css">
+		.col{
+			transform: rotate(360deg);
+			transition: 2s;
 		}
 	</style>
+	<title>MY GALLERY</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+	<div class="jumbotron">
+  <h1 class="display-4">MY GALLERY</h1>
+  <i class="fa fa-picture-o fa-7x" aria-hidden="true"></i>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-       <a class="navbar-brand" href="mygallery.html" aria-label="home">
+       <a class="navbar-brand" href="#" aria-label="home">
   	<i class="fas fa-home fa-2x"></i><br>
-  	Back to Home<span class="sr-only">(current)</span>
+  	Home<span class="sr-only">(current)</span>
   </a>
       </li>
       <li class="nav-item dropdown">
@@ -48,13 +51,55 @@
 
   </div>
 </nav>
-	<h1>Profile</h1>
-	<p>My Name is Vanya Arora.<br>I'm 19 years old.<br>
-		I'm currently pursuing Btech in Information & Technology.<br>I love to explore new technologies and also i love to play chess.<br>This is my first project on WEB DEVELOPMENT.<br>
-	I believe that <b>"HARDWORK IS THE KEY TO SUCCESS"</b> and <b>"WE SHOULD NEVER GIVE UP!"</b><br>
-<b>THANK YOU!!</b></p>
+
+	<div class="container">
+  <div class="row">
+    <div class="col">
+     <img src="Images/flower1.jpg" alt="flower">
+    </div>
+    <div class="col">
+       <img src="Images/flower2.jpg" alt="flower">
+    </div>
+    <div class="col">
+      <img src="Images/flower3.jpg" alt="flower">
+    </div>
+</div>
+  <div class="row">
+    <div class="col">
+     <img src="Images/scene1.jpg" alt="scene">
+    </div>
+    <div class="col">
+       <img src="Images/scene2.jpg" alt="scene">
+    </div>
+    <div class="col">
+      <img src="Images/rain.jpg" alt="rain">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+     <img src="Images/wow.jpg" alt="scene">
+    </div>
+    <div class="col">
+       <img src="Images/garden2.jpg" alt="Garden">
+    </div>
+    <div class="col">
+      <img src="Images/garden1.jpg" alt="Garden">
+    </div>
+  </div>
+ 
+  <div class="row">
+    <div class="col">
+     <img src="Images/scene4.jpg" alt="landscape">
+    </div>
+    <div class="col">
+       <img src="Images/land2.jpg" alt="landscape">
+    </div>
+    <div class="col">
+      <img src="Images/pep.jpg" alt="scene">
+    </div>
+  </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 </body>
 </html>
